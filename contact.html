@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-image: url(images/beach.jpg);
+        }
+        .contact{
+            position: relative;
+            margin: 20vh auto;
+            width: 40vmin;
+            height: 20vh;
+            border: 4px solid darkblue;
+            border-radius: 5px;
+            background-color: #40a8c267;
+            padding: 2rem;
+            font-size: 1.1rem;
+        }
+        .contact a:hover{
+            color: rgb(8, 133, 133);
+        }
+        .contact::before, .contact::after{
+            content: '';
+            position: absolute;
+            border: 1px solid rgb(27, 94, 172);
+        }
+        .contact::before{
+            top: 1em;
+            right: 1em;
+            bottom: 0.5em;
+        }
+        .contact::after{
+            left: 1em;
+            bottom: 1em;
+            right: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <section class="contact">
+    <h2 style="color: black;">Contact Information</h2>
+    <nav>
+      <ul>
+        <li><a href="theinternationaltravel@blooger.com">theinternationaltravel@blooger.com</a></li>
+        <li><a href="tel:+4917765477426">(+49)0177 6547 7426</a> </li>
+      </ul>
+    </nav>
+    <a href="index.html"><strong>Back to main page</strong> </a>
+</section>
+</body>
+</html>
