@@ -16,6 +16,7 @@ body{
     left: 5vmin;
     top: 3vh;
     background-color: rgb(252, 249, 246);
+    overflow: hidden;
 }
 .beach{
     width: 55vmax;
