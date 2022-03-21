@@ -38,12 +38,12 @@ body{
 .travel nav {
     position: absolute;
     top: 1.5rem;
-    left: 29vmax;
+    left: 28vmax;
 }
 .travel nav a{
-       text-decoration: none;
- color: black;
-margin-left: 2rem;
+     text-decoration: none;
+     color: black;
+     margin-left: 2rem;
 }
 .travel nav a:hover{
     font-weight: bolder;
