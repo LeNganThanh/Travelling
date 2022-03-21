@@ -29,6 +29,7 @@ body{
 }
 .beach img{
        display: inline-block;
+       margin-left: 1rem;
  
 }
 .travel ul li{
@@ -38,7 +39,7 @@ body{
 .travel nav {
     position: absolute;
     top: 1.5rem;
-    left: 29vmax;
+    left: 28vw;
 }
 .travel nav a{
        text-decoration: none;
