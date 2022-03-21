@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.about h1 {
+  text-align: center;
+  color: antiquewhite;
+}
+.about {
+  position: relative;
+  background-image: url(../images/beach.jpg);
+  background-size: cover;
+  width: 100vmax;
+  height: 100vh;
+  background-color: rgb(252, 249, 246);
+}
+header button {
+  position: absolute;
+  top: 0.7rem;
+  left: 1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  background: antiquewhite;
+  color: rgb(2, 78, 90);
+  font-size: 1.1rem;
+}
+header button:hover {
+  background-color: rgb(113, 187, 187);
+}
+header a {
+  text-decoration: none;
+}
+.about p {
+  margin-left: 2rem;
+}
+.about p:last-of-type {
+  margin-bottom: 2.3rem;
+}
+header {
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vmax;
+  background-color: rgb(2, 78, 90);
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+footer {
+  position: fixed;
+  background-color: rgb(2, 78, 90);
+  bottom: 0;
+  width: 100vmax;
+  padding: 1rem;
+  color: antiquewhite;
+  text-align: right;
+  padding-right: 2rem;
+}

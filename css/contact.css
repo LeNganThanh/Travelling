@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/beach.jpg);
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+.contact {
+  position: relative;
+  margin: 25vh auto;
+  width: 24rem;
+  height: 15rem;
+  border-radius: 5px;
+  background: linear-gradient(#40a8c231, #40a8c2);
+  padding: 2rem;
+}
+.contact a:hover {
+  color: rgb(8, 133, 133);
+}
+.contact::before,
+.contact::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgb(27, 94, 172);
+}
+.contact::before {
+  top: 1em;
+  right: 1em;
+  bottom: 0.5em;
+}
+.contact::after {
+  left: 1em;
+  bottom: 1em;
+  right: 0.5em;
+}
