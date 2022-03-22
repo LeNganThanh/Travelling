@@ -1,73 +1,84 @@
-*{
-    box-sizing: border-box ;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: rgba(199, 196, 196, 0.63);
-    z-index: -1;
+body {
+  background-color: rgba(199, 196, 196, 0.63);
+  z-index: -1;
 }
-.travel{
-    width: 95vmax;
-    height: 90vh;
-    display: inline-block;
-    position: relative;
-    margin: 20px auto;
-    left: 5vmin;
-    top: 3vh;
-    background-color: rgb(252, 249, 246);
-    overflow: hidden;
+.travel {
+  width: 95vmax;
+  height: 90vh;
+  display: inline-block;
+  position: relative;
+  margin: 20px auto;
+  left: 5vmin;
+  top: 3vh;
+  background-color: rgb(252, 249, 246);
+  overflow: hidden;
+  min-width: 700px;
 }
-.beach{
-    width: 55vmax;
-    height: 90vh;
-    background-image: url(../images/beach.jpg);
-    background-size: cover;
-    object-fit: cover;
-    position: absolute;
-    right: 0;
-    top: 0;
+.text {
+  position: absolute;
+  width: 40%;
+  height: inherit;
+  left: 0rem;
+  top: 0rem;
+  right: 0rem;
+  bottom: 0rem;
 }
-.beach img{
-       display: inline-block;
-       margin-left: 1rem;
- 
+.beach {
+  width: 55vmax;
+  height: 90vh;
+  background-image: url(../images/beach.jpg);
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-.travel ul li{
-    list-style-type: none;
-    display: inline-block;
+.beach img {
+  display: inline-block;
+}
+.travel ul li {
+  list-style-type: none;
+  display: inline-block;
 }
 .travel nav {
-    position: absolute;
-    top: 1.5rem;
-    left: 28vw;
+  position: absolute;
+  top: 1.5rem;
+  right: 0rem;
 }
-.travel nav a{
-     text-decoration: none;
-     color: black;
-     margin-left: 2rem;
+.travel nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 2rem;
 }
-.travel nav a:hover{
-    font-weight: bolder;
+.travel nav a:hover {
+  font-weight: bolder;
 }
 
-.travel main h3{
-    padding-bottom: 1rem;
+.travel main h3 {
+  padding-bottom: 1rem;
 }
-.travel main{
-    position: absolute;
-    width: 38vmax;
-    top: 30vh;
-    left: 1rem;
-    line-height: 1.5rem;
-    text-align: justify;
+.travel main {
+  position: absolute;
+  width: 38vmax;
+  top: 30vh;
+  left: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
 }
-.travel footer p{
-    position: absolute;
-    top: 80vh;
-    width: 38vmax;
-    background-color: rgba(199, 196, 196, 0.486);
+.travel p,h3{
     padding: 1rem;
-    left: 1rem;
-    text-align: right;
+}
+.travel footer p {
+  position: absolute;
+  top: 80vh;
+  width: 36.5vmax;
+  background-color: rgba(199, 196, 196, 0.486);
+  padding: 1rem;
+  left: 2rem;
+  text-align: right;
 }
