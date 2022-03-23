@@ -18,7 +18,7 @@ body {
   background-color: rgb(252, 249, 246);
   overflow: hidden;
   min-width: 700px;
-  vertical-align: center;
+  vertical-align: middle;
 }
 .text {
   position: absolute;
