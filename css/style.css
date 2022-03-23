@@ -12,12 +12,13 @@ body {
   height: 90vh;
   display: inline-block;
   position: relative;
-  margin: 20px auto;
+  margin: 0px auto;
   left: 5vmin;
   top: 3vh;
   background-color: rgb(252, 249, 246);
   overflow: hidden;
   min-width: 700px;
+  vertical-align: center;
 }
 .text {
   position: absolute;
@@ -31,7 +32,7 @@ body {
 .beach {
   width: 55vmax;
   height: 90vh;
-  background-image: url(../images/beach.jpg);
+  background: url(../images/beach.jpg) center/cover;
   background-size: cover;
   object-fit: cover;
   position: absolute;
